@@ -1,0 +1,98 @@
+$bojaGlavna: rgb(248, 234, 194);
+$bojaIzmedju: rgb(219, 179, 104);
+$akcenat:#a27d53;
+#navigacija {
+    background-color: $bojaGlavna;
+}
+
+.prozirniSloj {
+    background-color: rgba($bojaGlavna, 0.2);
+}
+
+.linkKol {
+    background-color: $akcenat;
+    color: whitesmoke;
+    &:hover {
+        color: whitesmoke;
+    }
+}
+
+.dajBoju {
+    background-color: $bojaGlavna;
+}
+
+.ljub {
+    color: $akcenat;
+    &:hover {
+        color: $akcenat;
+    }
+}
+
+a[class="btn"] {
+    background-color: $akcenat;
+    color: white;
+    &:hover {
+        color: white;
+    }
+}
+
+input {
+    background-color: rgba($akcenat, 0.5) !important;
+    color: white;
+}
+
+select {
+    background-color: rgba($akcenat, 0.5) !important;
+    color: white;
+}
+
+button[type="submit"] {
+    background-color: $akcenat !important;
+    color: white;
+    &:hover {
+        color: white;
+    }
+}
+
+button[type="button"] {
+    background-color: $akcenat !important;
+    color: white;
+    &:hover {
+        color: white;
+    }
+}
+
+textarea {
+    @extend input;
+}
+
+.link {
+    font-weight: bold;
+    color: beige;
+    text-decoration: none;
+    &:hover {
+        color: beige;
+    }
+}
+
+body {
+    background-color: $bojaGlavna;
+}
+
+#bgImg {
+    background-image: url(../img/knjige.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.slikaPcart {
+    width: 150px;
+}
+
+.purple {
+    background-color: $akcenat !important;
+}
+
+.purpleLight {
+    background-color: $bojaIzmedju;
+}

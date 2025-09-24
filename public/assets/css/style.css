@@ -1,0 +1,98 @@
+#navigacija {
+  background-color: #f8eac2;
+}
+
+.prozirniSloj {
+  background-color: rgba(248, 234, 194, 0.2);
+}
+
+.linkKol {
+  background-color: #a27d53;
+  color: whitesmoke;
+}
+
+.linkKol:hover {
+  color: whitesmoke;
+}
+
+.dajBoju {
+  background-color: #f8eac2;
+}
+
+.ljub {
+  color: #a27d53;
+}
+
+.ljub:hover {
+  color: #a27d53;
+}
+
+a[class="btn"] {
+  background-color: #a27d53;
+  color: white;
+}
+
+a[class="btn"]:hover {
+  color: white;
+}
+
+input, textarea {
+  background-color: rgba(162, 125, 83, 0.5) !important;
+  color: white;
+}
+
+select {
+  background-color: rgba(162, 125, 83, 0.5) !important;
+  color: white;
+}
+
+button[type="submit"] {
+  background-color: #a27d53 !important;
+  color: white;
+}
+
+button[type="submit"]:hover {
+  color: white;
+}
+
+button[type="button"] {
+  background-color: #a27d53 !important;
+  color: white;
+}
+
+button[type="button"]:hover {
+  color: white;
+}
+
+.link {
+  font-weight: bold;
+  color: beige;
+  text-decoration: none;
+}
+
+.link:hover {
+  color: beige;
+}
+
+body {
+  background-color: #f8eac2;
+}
+
+#bgImg {
+  background-image: url(../img/knjige.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.slikaPcart {
+  width: 150px;
+}
+
+.purple {
+  background-color: #a27d53 !important;
+}
+
+.purpleLight {
+  background-color: #dbb368;
+}
+/*# sourceMappingURL=style.css.map */
